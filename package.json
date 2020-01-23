@@ -1,0 +1,31 @@
+{
+  "name": "lab-06",
+  "version": "1.0.0",
+  "description": "Get your hands dirty in using and properly documenting a ReST API",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "lint": "eslint **/.js",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --coverage --verbose",
+    "start": "json-server --watch=./data/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-portune/lab-06.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-portune/lab-06/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-portune/lab-06#readme",
+  "dependencies": {
+    "jest": "^25.1.0",
+    "json-server": "^0.15.1",
+    "lint": "^0.7.0"
+  }
+}
